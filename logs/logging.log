@@ -104,3 +104,47 @@ Source-Age: 0
 [2025-02-04 19:57:48,637: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-02-04 21:38:07,321: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-04 21:38:07,324: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-04 21:38:07,330: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-04 21:38:07,330: INFO: common: created directory at: artifacts]
+[2025-02-04 21:38:07,330: INFO: common: created directory at: artifacts/data_validation]
+[2025-02-05 11:29:53,926: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-05 11:29:53,926: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-05 11:29:53,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-05 11:29:53,954: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-05 11:29:53,954: INFO: common: created directory at: artifacts]
+[2025-02-05 11:29:53,954: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-05 11:29:53,954: INFO: data_ingestion: File already exists]
+[2025-02-05 11:29:53,982: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-02-05 11:29:53,983: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-02-05 11:29:53,983: ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\MLOps1\DataScienceProject\main.py", line 17, in <module>
+    obj = DataValidationTrainingPipeline()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataValidationTrainingPipeline' is not defined
+[2025-02-05 11:31:22,999: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-05 11:33:32,110: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-05 11:37:30,454: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-05 11:37:30,751: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-05 11:37:30,751: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-05 11:37:30,751: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-05 11:37:30,751: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-05 11:37:30,751: INFO: common: created directory at: artifacts]
+[2025-02-05 11:37:30,751: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-05 11:37:30,751: INFO: data_ingestion: File already exists]
+[2025-02-05 11:37:30,767: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-02-05 11:37:30,767: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-02-05 11:37:30,770: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-05 11:37:30,771: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-05 11:37:30,773: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-05 11:37:30,774: INFO: common: created directory at: artifacts]
+[2025-02-05 11:37:30,774: INFO: common: created directory at: artifacts/data_validation]
+[2025-02-05 11:37:30,803: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
